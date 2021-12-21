@@ -12,6 +12,8 @@ public class _Consumer {
         //using Consumer Interface
         Customer bob = new Customer("Bob", 52221);
         sayHelloConsumer.accept(bob);
+
+        System.out.println("Hello "+bob);
     }
 
     public static void sayHello(Customer customer){
